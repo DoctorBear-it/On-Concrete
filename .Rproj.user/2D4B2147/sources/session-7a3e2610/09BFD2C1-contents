@@ -6,6 +6,19 @@ book:
   title: "On Concrete"
   author: "Timothy J. Barrett"
   date: "9/10/2023"
+  page-footer: 
+    left: "Copyright © 2023, Timothy J. Barrett.  All Rights Reserved."
+    center: 
+      - text: "License"
+        url: https://github.com/DoctorBear-it/On-Concrete/blob/main/LICENSE
+  sidebar:
+    style: docked
+  search: true
+  repo-url: https://github.com/DoctorBear-it/On-Concrete
+  page-navigation: true
+  reader-mode: true
+  repo-actions: [edit]
+  sharing: [twitter, facebook, linkedin]
   chapters:
     - index.qmd
     - intro.qmd
@@ -16,22 +29,26 @@ book:
     - part: advanced.qmd
       chapters:
         - advanced_1.qmd
-    # - part: special_topics.qmd
-    #   chapters:
-    #     - special_topics_1.qmd
-    # - part: experimental.qmd
-    #   chapters:
-    #     - experimental_1.qmd
-    # - part: computational.qmd
-    #   chapters:
-    #     - computational_1.qmd
+    - part: special_topics.qmd
+      chapters:
+        - special_topics_1.qmd
+    - part: experimental.qmd
+      chapters:
+        - experimental_1.qmd
+    - part: computational.qmd
+      chapters:
+        - computational_1.qmd
     - references.qmd
+  appendices:
+    - tools.qmd
 
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
   pdf:
     documentclass: scrreprt
 

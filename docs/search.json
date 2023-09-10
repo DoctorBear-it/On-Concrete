@@ -4,21 +4,28 @@
     "href": "index.html",
     "title": "On Concrete",
     "section": "",
-    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2\n\n\nHere we attempt to make some changes and watch it update as we save.\nTrying some more edits.\nHere be an edit.\nMore edits.\nGoogle"
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2\n\n\nHere we attempt to make some changes and watch it update as we save.\nTrying some more edits.\nHere be an edit.\nMore edits.\nGoogle"
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
+    "objectID": "intro.html#imports",
+    "href": "intro.html#imports",
     "title": "1  Introduction",
-    "section": "",
-    "text": "See Knuth (1984) for additional discussion of literate programming.\n\nlibrary(tidyverse)\n\n-- Attaching packages --------------------------------------- tidyverse 1.3.2 --v ggplot2 3.3.6      v purrr   0.3.4 \nv tibble  3.1.8      v dplyr   1.0.10\nv tidyr   1.2.1      v stringr 1.4.0 \nv readr   2.1.2      v forcats 0.5.2 -- Conflicts ------------------------------------------ tidyverse_conflicts() --\nx dplyr::filter() masks stats::filter()\nx dplyr::lag()    masks stats::lag()\n\n\n\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\"\n)\n\n\n\n\nFigure 1.1: Temperature and ozone level.\n\n\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "section": "1.1 Imports",
+    "text": "1.1 Imports\n\nlibrary(tidyverse)\n\n-- Attaching packages --------------------------------------- tidyverse 1.3.2 --v ggplot2 3.3.6      v purrr   0.3.4 \nv tibble  3.1.8      v dplyr   1.0.10\nv tidyr   1.2.1      v stringr 1.4.0 \nv readr   2.1.2      v forcats 0.5.2 -- Conflicts ------------------------------------------ tidyverse_conflicts() --\nx dplyr::filter() masks stats::filter()\nx dplyr::lag()    masks stats::lag()"
+  },
+  {
+    "objectID": "intro.html#plotting",
+    "href": "intro.html#plotting",
+    "title": "1  Introduction",
+    "section": "1.2 Plotting",
+    "text": "1.2 Plotting\n\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\"\n)\n\n\n\n\nFigure 1.1: Temperature and ozone level.\n\n\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
     "title": "2  Summary",
     "section": "",
-    "text": "1 + 1\n\n[1] 2"
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "basics.html",

@@ -1,8 +1,10 @@
 {
-  "hash": "321d96f36a8a7c80dcc1404025a6b073",
+  "hash": "f0b58874ec098595f080a5fb9b8ec08e",
   "result": {
-    "markdown": "# Preface {.unnumbered}\n\nThis is a Quarto book.\n\nTo learn more about Quarto books visit <https://quarto.org/docs/books>.\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\n\nHere we attempt to make some changes and watch it update as we save.\n\nTrying some more edits.\n\nHere be an edit.\n\nMore edits.\n",
-    "supporting": [],
+    "markdown": "# Preface {.unnumbered}\n\nThis is a Quarto book.\n\nTo learn more about Quarto books visit <https://quarto.org/docs/books>.\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\n\nHere we attempt to make some changes and watch it update as we save.\n\nTrying some more edits.\n\nHere be an edit.\n\nMore edits.\n\n[Google](https://www.google.com/ \"yep\")\n",
+    "supporting": [
+      "index_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
