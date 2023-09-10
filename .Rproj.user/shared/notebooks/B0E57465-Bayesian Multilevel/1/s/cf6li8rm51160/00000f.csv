@@ -1,0 +1,8 @@
+"0","m3_mua = 3"
+"0","m3_mub = 1"
+"0","m3_sigmaa = 0.1"
+"0","m3_sigmab = 0.1"
+"0","m3_a0 = rnorm(n=Ntot, m3_mua, m3_sigmaa)"
+"0","m3_b0 = rnorm(n=Ntot, m3_mub, m3_sigmaa)"
+"0","m3pars = c(sigma = sigma, a1 = a1, b1 = b1,"
+"0","           a0_mu = m3_mua, b0_mu = m3_mub)"

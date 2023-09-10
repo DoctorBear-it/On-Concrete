@@ -1,0 +1,4 @@
+"0","#save a plot so we can use it in the blog post"
+"0","simdat <- list(m1 = m1_dat, m2 = m2_dat, m3 = m3_dat, m1pars = m1pars, m2pars = m2pars, m3pars = m3pars, Nlow = Nlow, Nmed = Nmed, Nhigh = Nhigh)"
+"0","# saveRDS(simdat, file = filename)"
+"0","# ggsave(file = paste0(""featured.png""), p3, dpi = 300, units = ""in"", width = 6, height = 6)"

@@ -1,0 +1,19 @@
+# Preface {.unnumbered}
+
+This is a Quarto book.
+
+To learn more about Quarto books visit <https://quarto.org/docs/books>.
+
+```{r}
+1 + 1
+```
+
+Here we attempt to make some changes and watch it update as we save.
+
+Trying some more edits.
+
+Here be an edit.
+
+More edits.
+
+[Google](https://www.google.com/ "yep")

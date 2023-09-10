@@ -1,0 +1,6 @@
+"0","#stick all models into a list"
+"0","modellist = list(m1=m1eqs,m2a=m2aeqs,m3=m3eqs,m4=m4eqs)"
+"0","#also make list for priors"
+"0","priorlist = list(m1priors=m1priors,m2apriors=m2apriors,m3priors=m3priors,m4priors=m4priors)"
+"0","# set up a list in which we'll store our results"
+"0","fl = vector(mode = ""list"", length = length(modellist))"

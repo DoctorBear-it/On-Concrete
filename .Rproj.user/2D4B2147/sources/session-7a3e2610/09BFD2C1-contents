@@ -1,0 +1,42 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "On Concrete"
+  author: "Timothy J. Barrett"
+  date: "9/10/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - part: basics.qmd
+      chapters:
+        - basics_1.qmd
+    - part: advanced.qmd
+      chapters:
+        - advanced_1.qmd
+    # - part: special_topics.qmd
+    #   chapters:
+    #     - special_topics_1.qmd
+    # - part: experimental.qmd
+    #   chapters:
+    #     - experimental_1.qmd
+    # - part: computational.qmd
+    #   chapters:
+    #     - computational_1.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
+# comments:
+#   hypothesis: 
+#     theme: classic
