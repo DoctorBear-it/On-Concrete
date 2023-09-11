@@ -27,6 +27,48 @@
             "title": "Literate programming",
             "type": "article-journal",
             "volume": "27"
+        },
+        {
+            "URL": "http://search.proquest.com/docview/1735490777",
+            "author": [
+                {
+                    "family": "Barrett",
+                    "given": "T. J."
+                }
+            ],
+            "genre": "PhD thesis",
+            "id": "Barrett2015a",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015
+                    ]
+                ]
+            },
+            "note": "Citation Key: Barrett2015a",
+            "title": "Improving service life of concrete structures through the use of internal curing: Impact on practice",
+            "title-short": "Improving service life of concrete structures through the use of internal curing",
+            "type": "thesis"
+        },
+        {
+            "author": [
+                {
+                    "family": "Barrett",
+                    "given": "Timothy J"
+                }
+            ],
+            "id": "Barrett2013",
+            "issued": {
+                "date-parts": [
+                    [
+                        2013
+                    ]
+                ]
+            },
+            "note": "Citation Key: Barrett2013",
+            "title": "Performance of portland limestone cements",
+            "type": "article-journal",
+            "volume": "000"
         }
     ],
     "project_biblios": [

@@ -1,9 +1,9 @@
 {
-  "hash": "b1b1010973c937e4e4517c265ff31362",
+  "hash": "d27fe08819458622a033e61d8f162604",
   "result": {
-    "markdown": "# Introduction\n\nThis is a book created from markdown and executable code.\n\nSee @knuth84 for additional discussion of literate programming.\n\n## Imports\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\n-- Attaching packages --------------------------------------- tidyverse 1.3.2 --v ggplot2 3.3.6      v purrr   0.3.4 \nv tibble  3.1.8      v dplyr   1.0.10\nv tidyr   1.2.1      v stringr 1.4.0 \nv readr   2.1.2      v forcats 0.5.2 -- Conflicts ------------------------------------------ tidyverse_conflicts() --\nx dplyr::filter() masks stats::filter()\nx dplyr::lag()    masks stats::lag()\n```\n:::\n:::\n\n\n## Plotting\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\"\n)\n```\n\n::: {.cell-output-display}\n![Temperature and ozone level.](intro_files/figure-html/fig-airquality-1.png){#fig-airquality width=672}\n:::\n:::\n",
+    "markdown": "# Introduction\n\nThis is a book created from markdown and executable code.\n\nSee @knuth84 for additional discussion of literate programming.\n\n## Imports\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\n-- Attaching packages --------------------------------------- tidyverse 1.3.2 --v ggplot2 3.3.6      v purrr   0.3.4 \nv tibble  3.1.8      v dplyr   1.0.10\nv tidyr   1.2.1      v stringr 1.4.0 \nv readr   2.1.2      v forcats 0.5.2 -- Conflicts ------------------------------------------ tidyverse_conflicts() --\nx dplyr::filter() masks stats::filter()\nx dplyr::lag()    masks stats::lag()\n```\n:::\n:::\n\n\n## Plotting\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\")\n```\n\n::: {.cell-output-display}\n![Temperature and ozone level.](intro_files/figure-html/fig-airquality-1.png){#fig-airquality width=672}\n:::\n:::\n",
     "supporting": [
-      "intro_files"
+      "intro_files\\figure-html"
     ],
     "filters": [
       "rmarkdown/pagebreak.lua"

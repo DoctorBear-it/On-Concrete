@@ -1,19 +1,41 @@
+---
+citation: 
+  type: book    
+  url: https://doctorbear-it.github.io/On-Concrete/
+google-scholar: true
+reference-location: margin
+citation-location: margin
+appendix-cite-as: display
+---
+
 # Preface {.unnumbered}
 
-This is a Quarto book.
+"How hard could this be?"
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+I set forth with this writing as a purely selfish endeavor, for it is a great burden to walk around with much of this information occupying space in my memory. I seek to rid myself of this burden by placing everything I have or could learn about concrete in permanent online storage for my personal reference. Let me be clear that much or most of this content is inspired by those that came before me. I think someone once said something clever about standing on the shoulders of giants, and well, here too I stand and you are most welcome to join the climb from here.
 
-```{r}
-1 + 1
-```
+::: callout-important
+## Take Care of Yourself
 
-Here we attempt to make some changes and watch it update as we save.
+Before we get into the business of it, lets first cover a key coaching point. If you or a loved one is suffering from mental health issues or are struggling with substance abuse, please get help. Talk to a friend, family member, a stranger, a doctor, someone. Please. If you feel like you have no one to turn to, consider calling SAMHSA at 1-800-622-HELP (4357). Its free and confidential and open 24/7, 365 days a year. If all else fails, ping me here.
+:::
 
-Trying some more edits.
+# About the Author
 
-Here be an edit.
+Call me Tim. I'm one of those over-educated types that has studied concrete in and around some of the best and I like telling stories, so here we are. I grew up in a research lab at Purdue University under the direction of Professor W. Jason Weiss. I pulled a trifecta of degrees from Purdue [@Barrett2013] [@Barrett2015a] then went on to the National Institute of Standards and Technology as an NRC Post-Doctoral Fellow and Research Structural Engineer. After NIST, I tried my hand in industry working in Research & Development at GCP Applied Technologies, supporting engineered systems, specialty admixtures, and fibers. As of this writing, I am employed full time as the Civil Engineering Materials Research Engineer and Lab Manager of the Structural Engineering Laboratory on the Bridge Engineering Research Team at the Federal Highway Administration's Turner-Fairbank Highway Research Center.
 
-More edits.
+# Contributing
 
-[Google](https://www.google.com/ "yep")
+This is a personal piece of work and is in no way affiliated with- or sponsored by- any of my employers past or present nor any other benefactors. That is to say, there really is no glory to be sought here.
+
+With that, if you too suffer from carrying around way too much information about concrete and want to mitigate your burdens while contributing to the mission of this book please reach out. This is a long-term project that I hope to attract a great many contributing authors to. If you contribute not-nothing, I will add you to the list of authors of the book. If you send me pull requests with your contributions and edits, you'll get an editor credit as well.
+
+Let's end the suffering together.
+
+# Mission of this Book
+
+I hate the way engineering research is delivered. Unless I have a specific need, I'm not interested in reading yet another introduction full of self-citations or better yet, a failure to find and include actual original sources of knowledge. I think we'd be better off with a list of references and keywords, so we can skip straight ahead to the new meat the authors are serving. I'm also dismayed with the modern peer review process and various topical journals sitting behind paywalls. Its slow, dated, and rarely valuable for either the authors, the reviewers, or the readers. So taking this together, I set once more to buck the trends of the industry and plainly state: you're looking at what I got. If you have a comment, mash the "Report an issue" button on the side and let it be known to everyone. If you use the content, cite the work. It's published and even has a fancy DOI just like the journals do.
+
+Like I said at the start, how hard could this actually be.
+
+This is a Quarto book, to learn more visit <https://quarto.org/docs/books>.

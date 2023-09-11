@@ -4,7 +4,11 @@ project:
 
 book:
   title: "On Concrete"
-  author: "Timothy J. Barrett"
+  author: 
+    - name: "Timothy J. Barrett"
+      id: TJB
+      orcid: 0000-0002-7703-1011
+      email: dr.timothy.j.barrett@gmail.com
   date: "9/10/2023"
   page-footer: 
     left: "Copyright © 2023, Timothy J. Barrett.  All Rights Reserved."
@@ -17,15 +21,15 @@ book:
   repo-url: https://github.com/DoctorBear-it/On-Concrete
   page-navigation: true
   reader-mode: true
-  repo-actions: [edit]
+  repo-actions: [edit, issue]
   sharing: [twitter, facebook, linkedin]
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
     - part: basics.qmd
       chapters:
+        - intro.qmd
         - basics_1.qmd
+        - summary.qmd
     - part: advanced.qmd
       chapters:
         - advanced_1.qmd
@@ -43,12 +47,19 @@ book:
     - tools.qmd
 
 bibliography: references.bib
+csl: ieee.csl
 
 format:
   html:
     theme:
       light: flatly
       dark: darkly
+    code-fold: true
+    code-tools: true
+    grid: 
+      sidebar-width: 300px
+      body-width: 800px
+      margin-width: 500px
   pdf:
     documentclass: scrreprt
 

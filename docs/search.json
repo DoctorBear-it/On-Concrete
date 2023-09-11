@@ -4,28 +4,7 @@
     "href": "index.html",
     "title": "On Concrete",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2\n\n\nHere we attempt to make some changes and watch it update as we save.\nTrying some more edits.\nHere be an edit.\nMore edits.\nGoogle"
-  },
-  {
-    "objectID": "intro.html#imports",
-    "href": "intro.html#imports",
-    "title": "1  Introduction",
-    "section": "1.1 Imports",
-    "text": "1.1 Imports\n\nlibrary(tidyverse)\n\n-- Attaching packages --------------------------------------- tidyverse 1.3.2 --v ggplot2 3.3.6      v purrr   0.3.4 \nv tibble  3.1.8      v dplyr   1.0.10\nv tidyr   1.2.1      v stringr 1.4.0 \nv readr   2.1.2      v forcats 0.5.2 -- Conflicts ------------------------------------------ tidyverse_conflicts() --\nx dplyr::filter() masks stats::filter()\nx dplyr::lag()    masks stats::lag()"
-  },
-  {
-    "objectID": "intro.html#plotting",
-    "href": "intro.html#plotting",
-    "title": "1  Introduction",
-    "section": "1.2 Plotting",
-    "text": "1.2 Plotting\n\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\"\n)\n\n\n\n\nFigure 1.1: Temperature and ozone level.\n\n\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+    "text": "Preface\n“How hard could this be?”\nI set forth with this writing as a purely selfish endeavor, for it is a great burden to walk around with much of this information occupying space in my memory. I seek to rid myself of this burden by placing everything I have or could learn about concrete in permanent online storage for my personal reference. Let me be clear that much or most of this content is inspired by those that came before me. I think someone once said something clever about standing on the shoulders of giants, and well, here too I stand and you are most welcome to join the climb from here.\n\n\n\n\n\n\nTake Care of Yourself\n\n\n\nBefore we get into the business of it, lets first cover a key coaching point. If you or a loved one is suffering from mental health issues or are struggling with substance abuse, please get help. Talk to a friend, family member, a stranger, a doctor, someone. Please. If you feel like you have no one to turn to, consider calling SAMHSA at 1-800-622-HELP (4357). Its free and confidential and open 24/7, 365 days a year. If all else fails, ping me here.\n\n\n\n\nAbout the Author\nCall me Tim. I’m one of those over-educated types that has studied concrete in and around some of the best and I like telling stories, so here we are. I grew up in a research lab at Purdue University under the direction of Professor W. Jason Weiss. I pulled a trifecta of degrees from Purdue [1] [2] then went on to the National Institute of Standards and Technology as an NRC Post-Doctoral Fellow and Research Structural Engineer. After NIST, I tried my hand in industry working in Research & Development at GCP Applied Technologies, supporting engineered systems, specialty admixtures, and fibers. As of this writing, I am employed full time as the Civil Engineering Materials Research Engineer and Lab Manager of the Structural Engineering Laboratory on the Bridge Engineering Research Team at the Federal Highway Administration’s Turner-Fairbank Highway Research Center.\n\n[1] T. J. Barrett, “Performance of portland limestone cements,” vol. 0, 2013.\n\n[2] T. J. Barrett, “Improving service life of concrete structures through the use of internal curing: Impact on practice,” PhD thesis, 2015. Available: http://search.proquest.com/docview/1735490777\n\n\nContributing\nThis is a personal piece of work and is in no way affiliated with- or sponsored by- any of my employers past or present nor any other benefactors. That is to say, there really is no glory to be sought here.\nWith that, if you too suffer from carrying around way too much information about concrete and want to mitigate your burdens while contributing to the mission of this book please reach out. This is a long-term project that I hope to attract a great many contributing authors to. If you contribute not-nothing, I will add you to the list of authors of the book. If you send me pull requests with your contributions and edits, you’ll get an editor credit as well.\nLet’s end the suffering together.\n\n\nMission of this Book\nI hate the way engineering research is delivered. Unless I have a specific need, I’m not interested in reading yet another introduction full of self-citations or better yet, a failure to find and include actual original sources of knowledge. I think we’d be better off with a list of references and keywords, so we can skip straight ahead to the new meat the authors are serving. I’m also dismayed with the modern peer review process and various topical journals sitting behind paywalls. Its slow, dated, and rarely valuable for either the authors, the reviewers, or the readers. So taking this together, I set once more to buck the trends of the industry and plainly state: you’re looking at what I got. If you have a comment, mash the “Report an issue” button on the side and let it be known to everyone. If you use the content, cite the work. It’s published and even has a fancy DOI just like the journals do.\nLike I said at the start, how hard could this actually be.\nThis is a Quarto book, to learn more visit https://quarto.org/docs/books."
   },
   {
     "objectID": "basics.html",
@@ -35,6 +14,27 @@
     "text": "This section of the book is intended to serve as a foundational introduction to modern concrete."
   },
   {
+    "objectID": "intro.html#imports",
+    "href": "intro.html#imports",
+    "title": "1  Introduction",
+    "section": "1.1 Imports",
+    "text": "1.1 Imports\n\n\nCode\nlibrary(tidyverse)\n\n\n-- Attaching packages --------------------------------------- tidyverse 1.3.2 --v ggplot2 3.3.6      v purrr   0.3.4 \nv tibble  3.1.8      v dplyr   1.0.10\nv tidyr   1.2.1      v stringr 1.4.0 \nv readr   2.1.2      v forcats 0.5.2 -- Conflicts ------------------------------------------ tidyverse_conflicts() --\nx dplyr::filter() masks stats::filter()\nx dplyr::lag()    masks stats::lag()"
+  },
+  {
+    "objectID": "intro.html#plotting",
+    "href": "intro.html#plotting",
+    "title": "1  Introduction",
+    "section": "1.2 Plotting",
+    "text": "1.2 Plotting\n\n\nCode\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\")\n\n\n\n\n\nFigure 1.1: Temperature and ozone level.\n\n\n\n\n\n\n\n\n\n\n[1] D. E. Knuth, “Literate programming,” Comput. J., vol. 27, no. 2, pp. 97–111, May 1984, doi: 10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n\nCode\n1 + 1\n\n\n[1] 2"
+  },
+  {
     "objectID": "advanced.html",
     "href": "advanced.html",
     "title": "Advanced Topics",
@@ -42,10 +42,31 @@
     "text": "This section will delve into somewhat more advanced topics in modern concrete. This Part is not written for the practitioner."
   },
   {
+    "objectID": "special_topics_1.html",
+    "href": "special_topics_1.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "experimental_1.html",
+    "href": "experimental_1.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "computational_1.html",
+    "href": "computational_1.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
     "objectID": "references.html",
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "[1] D.\nE. Knuth, “Literate programming,” Comput. J., vol.\n27, no. 2, pp. 97–111, May 1984, doi: 10.1093/comjnl/27.2.97.\n\n\n[2] T.\nJ. Barrett, “Improving service life of concrete structures through\nthe use of internal curing: Impact on practice,” PhD thesis,\n2015. Available: http://search.proquest.com/docview/1735490777\n\n\n[3] T.\nJ. Barrett, “Performance of portland limestone cements,”\nvol. 0, 2013."
   }
 ]
